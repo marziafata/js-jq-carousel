@@ -2,7 +2,7 @@
 <html lang="it" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Carosello</title>
         <script src="https://kit.fontawesome.com/7f25fd8a42.js" crossorigin="anonymous"></script>
         <!-- bootstrap -->
@@ -14,12 +14,12 @@
             <div class="carosello">
                 <i class="fas fa-2x fa-chevron-circle-left prev"></i>
                 <div class="foto">
-                    <img class="active" src="img/pancake.jpg" alt="pancake">
+                    <img id="prima_img"class="active" src="img/pancake.jpg" alt="pancake">
                     <img src="img/pokebowl.jpg" alt="pokebowl">
                     <img src="img/toast.jpg" alt="toast">
                 </div>
                 <div class="bullet">
-                    <i class="far fa-circle"></i>
+                    <i id="primo_bullet" class="far fa-circle active"></i>
                     <i class="far fa-circle"></i>
                     <i class="far fa-circle"></i>
                 </div>
@@ -29,7 +29,7 @@
 
 
 <!-- javascript e jquery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="main.js" charset="utf-8"></script>
     </body>
 </html>

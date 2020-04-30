@@ -6,12 +6,10 @@
 
 .container {
     width: 100vw;
-    height: 100vh;
 }
 
 .carosello {
     width: 100%;
-    height: 100%;
     overflow: hidden;
     position: relative;
 }
@@ -19,7 +17,6 @@
 .foto img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     display: none;
 }
 
@@ -44,11 +41,17 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
+.bullet i.active {
+    color: white;
+    font-size: 24px;
+}
+
 .fa-circle{
     cursor: pointer;
     font-weight: bold;
     padding: 16px;
-    color: white;
+    color: grey;
 }
 
 .foto img.active {
