@@ -20,7 +20,9 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: none;
 }
+
 
 .prev, .next {
   cursor: pointer;
@@ -47,7 +49,8 @@
     font-weight: bold;
     padding: 16px;
     color: white;
+}
 
-
-
+.foto img.active {
+    display: block;
 }
