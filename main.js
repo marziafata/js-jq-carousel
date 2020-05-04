@@ -102,7 +102,4 @@ function carosello() {
 
 // bonus: far sì che l'utente possa cliccare un pallino e attivare la foto corrispondente, senza seguire l'ordine sequenziale.
 
-// devo intercettare il click sul pallino
-$("fa-circle").addClass('active').click(function() {
-
-})
+// bonus: pulsanti "play" e "pausa" per gestire l'autoplay.
