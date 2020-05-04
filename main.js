@@ -61,3 +61,6 @@ $(".prev").click(function() {
         bullet_precedente.addClass('active');
     }
 })
+
+
+// oggi pomeriggio riprendete l'esercizio dello slider e, grazie alle timing function che abbiamo studiato stamattina, fate sì che il carousel funzioni con l'autoplay, ossia che automaticamente ogni 3 secondi cambi slide e venga visualizzata l'immagine successiva.
